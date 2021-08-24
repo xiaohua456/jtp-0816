@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rw5-3</title>
+    <style type="text/css">
+        #div1{margin-top: 30px; margin-bottom: 30px; margin-left: 50px;
+            height:650px;width:460px;border-style:solid;border-color:palevioletred;
+            border-width: 5px;text-align:center;
+            position: relative;}
+        #back{height:650px;width:460px;z-index: 0}
+        #photo{border: aquamarine ;padding: 20px; height: 600px;width: 400px;z-index: 1;}
+        #div2{position: relative;top: -660px;left: 65px}
+    </style>
+</head>
+<body>
+<div id="div1">
+    <!--    margin-top: 30px; margin-bottom: 30px, margin-left: 50px; 图片padding：20px。-->
+    <img src="背景.jpg" id="back">
+</div>
+<div id="div2"><img src="图片.jpg" id="photo"></div>
+</body>
+</html>
