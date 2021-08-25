@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [3,'a','a','a',2,3,'a',3,'a',2,4,9,3];
+    var maxVal = arr[0]; // 数组中的最大值
+    var minVal = arr[0]; // 数组中的最小值
+    var mostVal; // 数组中出现次数最多的元素
+    var tempObj = {};
+    var num = 0;
+    for(var i=arr.length-1; i>=0; i--){
+        if(maxVal<arr[i]){ // 得到最大值
+            maxVal = arr[i]
+        }
+        if(minVal>arr[i]){ // 得到最小值
+            minVal = arr[i]
+        }
+        if(tempObj[arr[i]]){ // 得到元素出现的次数，并组成obj
+            tempObj[arr[i]] = tempObj[arr[i]]+1;
+        }else{
+            tempObj[arr[i]] = 1;
+        }
+    }
+    for(var key in tempObj){ // 从对象中得到数组中出现最多的元素
+        if(!mostVal){
+            mostVal = key;
+        }else if(tempObj[mostVal]<tempObj[key]){
+            mostVal = key;
+        }
+    }
+    alert("次数最多的为"+mostVal);
+
+</script>
+</body>
+</html>
