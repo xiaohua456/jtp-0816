@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function palindrome(message){
+        var a=message.split("").reverse().join("");
+        alert(a===message);
+    }
+    palindrome('hello'); // should return false
+    palindrome('abcba'); // should return true
+</script>
+</body>
+</html>
