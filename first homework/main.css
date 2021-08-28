@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url('starfield-banner.jpg ');
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    width: 95%;
+}
+
+.logo-link {
+    width: 950px;
+    height: 35px;
+    font-size: small;
+    margin: 0 auto;
+}
+
+.header.logo {
+    position: fixed;
+    width:110px;
+    margin:11px;
+}
+#ditu{
+    position: relative;
+    top:-700px;
+    left:710px;
+}
+#dikuang{
+    background: blue;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    padding: 0 10px;
+    border-right:1px solid aliceblue;
+}
+a:nth-last-of-type(1){border: none}
+#yulu{
+    position: relative;
+    top:-100px;
+    left: 100px;
+    font-size: 10px;
+
+}
+#bottom1{
+    font-size: 8px;
+    margin-bottom: 40px;
+    margin-left: 600px;
+}
+#feichuan{
+    position: relative;
+    top: -690px;
+    left: 700px;
+}
+#ssc{
+    width: 23%;
+    height:300px;
+    position: relative;
+    top:-675px;
+    left:0;
+}
+#pia{
+    width: 48%;
+    position: relative;
+    top: -970px;
+    left: 300px;
+}
+#nas{
+    width: 23%;
+    position: relative;
+    top:-1010px;
+    left: 0;
+}
+#io{
+    width: 23%;
+    position: relative;
+    top: -1330px;
+    left: 400px;
+}
+#cas{
+    width: 23%;
+    position: relative;
+    top: -1690px;
+    left:770px;
+}
+#fer{
+    width: 23%;
+    position: relative;
+    top:-2026px;
+    left: 1127px;
+}
+#photo1{
+    position: relative;
+}
+#photo1 #dawn{
+    position: absolute;
+    top: 638px;
+    left: 0;
+    color: aliceblue;
+    background: cornflowerblue;
+}
+#photo1 #dusk{
+    position: absolute;
+    top: 660px;
+    left: 0;
+    color: black;
+    background: gray;
+}
+#photo2{
+    position: relative;
+}
